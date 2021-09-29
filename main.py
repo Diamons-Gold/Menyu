@@ -1,10 +1,17 @@
 import sys, pygame
+import random as r
 pygame.init() # Pygame Init
 
-size = width, height = 800, 800 # Set the var of the size, the width and the height for the screen
+size = width, height = 600, 600 # Set the var of the size, the width and the height for the screen
 
 screen = pygame.display.set_mode(size) # Init the size of the screen
-bg = pygame.image.load("assets/background/plaines.png") # Set the var of the background
+bg = pygame.image.load(f"assets/background/world_{r.randint(1,2)}.png") # Set the var of the background
+bg = pygame.transform.scale(bg, size)
+
+pygame.mixer.init()
+
+sound = pygame.mixer.Sound("assets/sound/field_theme_2.wav")
+sound.play(loops=-1, maxtime=0, fade_ms=0)
 
 while True: # Game loop
     for event in pygame.event.get(): # Pygame event detect

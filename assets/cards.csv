@@ -1,0 +1,8 @@
+name;type;pts_effect;mana_price;rarity;img;description
+Fireball;damage;20;1;80;3;Lance une Giga Fireball
+Iceball;damage;20;1;80;;Lance une Giga Iceball
+Dirtball;damage;20;1;80;;Lance une Giga Dirtball
+Waterball;damage;20;1;80;;Lance une Giga Waterball
+Life ;heal;40;1;60;16;
+Life +;heal;50;2;40;16;
+Life + +;heal;80;3;10;16;

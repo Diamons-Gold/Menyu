@@ -1,1 +1,6 @@
-https://cainos.itch.io
+https://cainos.itch.io -> Tilesets (world 1)
+https://pipoya.itch.io -> Tilesets (world 2)
+https://9e0.itch.io -> Witch
+https://cafedraw.itch.io -> Cards Assets
+https://managore.itch.io -> Font
+https://svl.itch.io -> Music
